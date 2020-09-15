@@ -172,7 +172,7 @@ console.log(getCountryWins(fifaData, "BRA"));
     //have to link teams with goals scored
     //use reduce to create new array with team, + total goals scored / matches played
 // compare average goals and return greatest
-
+ 
 function getGoals(data) {
     let avgGoals = [];
     avgGoals = getFinals(data).reduce(function (acc, obj) {
